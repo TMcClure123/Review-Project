@@ -71,3 +71,7 @@ body, html {
 #height {
   height: 20px;
 }
+.quote {
+  padding: 80px;
+  background-color: #0ecfcb;
+}
