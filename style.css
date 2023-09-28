@@ -16,7 +16,6 @@ body, html {
 
   }
   
- 
   .hero-text {
       transform: translate(0, 200%);
       color: white;
@@ -36,7 +35,7 @@ body, html {
     background-color: #555;
     color: white; 
   }
-  
+
   .navbar {
     transform: translate(0, 50%);
   }
@@ -74,4 +73,115 @@ body, html {
 .quote {
   padding: 80px;
   background-color: #0ecfcb;
+  font-family: 'Montserrat', sans-serif;
 }
+
+.footr {
+  color: white;
+}
+.holder {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.holder:hover .overlay {
+  opacity: .5;
+}
+
+.hover-mid{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.cbutton {
+  background-color: #0ecfcb;
+}
+.nav-link{
+  color:#141414;
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-link:hover{
+  color:#10C9C3;
+}
+.formbackground {
+  background-color: #F5F5F5;
+  height: 500px;
+}
+  #signUp {
+  margin-top: 10px;
+  padding: 0 20px 15px 20px;
+  border: 1px solid #F5F5F5;
+}
+
+#signUp legend {
+  font-size: 2em;
+  font-weight: 200;
+  padding: 0 .2em;
+}
+
+#signUp label {
+  display: block;
+  padding-top: 1em;
+}
+
+#signUp label:first-of-type {
+  margin-top: -.9em;
+}
+
+#nameLabel {
+  margin-top: -1em;
+}
+
+#submit,
+#clearCookie {
+  display: block;
+  font-size: 1em;
+  color: #FFF;
+  text-transform: uppercase;
+  background: #10C9C3;
+  padding: .8em 1em .7em;
+  border: 0;
+  border-bottom: 3px solid #10b7b1;
+  margin-top: 15px;
+}
+
+.textfield {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  padding: 7px;
+  background: #efefef;
+  border: 1px solid #bbb;
+  width: 97%;
+}
+
+.textfield:focus {
+  background: #FBF8D2;
+}
+
+.textalign {
+  text-align: center;
+}
+
